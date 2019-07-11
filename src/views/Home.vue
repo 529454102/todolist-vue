@@ -201,7 +201,7 @@ export default {
       }
       await editData(obj)
       this.getList();
-      Message({ message: "修改成功", type: "success" });
+      Message({ message: "撤销成功", type: "success" });
     },
     logout() {
       this.$store.dispatch("logout");
